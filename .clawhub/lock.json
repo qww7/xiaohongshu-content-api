@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "jarvis-skills": {
+      "version": "1.0.0",
+      "installedAt": 1772175162343
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772175168597
+    },
+    "openclaw-mem": {
+      "version": "2.1.0",
+      "installedAt": 1772175262719
+    },
+    "voice-wake-say": {
+      "version": "1.0.1",
+      "installedAt": 1772175273254
+    },
+    "byterover": {
+      "version": "1.2.2",
+      "installedAt": 1772177594830
+    }
+  }
+}
