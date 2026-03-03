@@ -13,7 +13,11 @@ import os
 
 # 导入DeepSeek生成器
 import sys
-sys.path.insert(0, '/home/qww/.openclaw/workspace')
+import os
+# 动态路径：兼容本地和云端
+workspace_path = os.path.dirname(os.path.abspath(__file__))
+if workspace_path not in sys.path:
+    sys.path.insert(0, workspace_path)
 from deepseek_generator import DeepSeekGenerator
 
 # 初始化FastAPI
